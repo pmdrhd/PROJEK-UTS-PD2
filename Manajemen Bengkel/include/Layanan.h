@@ -1,11 +1,18 @@
+#include <iostream>
 #include <string>
+
+using namespace std;
 
 // Deklarsi class Layanan
 class Layanan {
 public:
-	std::string namaLayanan;
-	std::string namaMekanik; // Nama mekanik akan diganti dengan file mekanik
+	string namaLayanan;
+	string namaMekanik; // Nama mekanik akan diganti dengan file mekanik
 	int hargaLayanan = 0;
-	void buatLayanan();
+	// Admin Functions
+	void createLayanan();
 	void layananFileWritting(Layanan l);
+	void editLayanan();
+	void deleteLayanan();
+	void showLayanan(Layanan l);
 };
