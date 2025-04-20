@@ -1,0 +1,21 @@
+1.
+Nama Layanan: Ganti oli
+Harga Layanan: 20000
+Nama Mekanik: Ali
+2.
+Nama Layanan: Tambal ban
+Harga Layanan: 15000
+Nama Mekanik: Suprapto
+3.
+Nama Layanan: Modif cat HITAM
+Harga Layanan: 25000
+Nama Mekanik: Prof. Rasisme
+4.
+Nama Layanan: Ganti lampu
+Harga Layanan: 50000
+Nama Mekanik: Supri
+5. 
+Nama Layanan: Bore up mesin
+Harga Layanan: 5000000
+Nama Mekanik: Bejo
+
