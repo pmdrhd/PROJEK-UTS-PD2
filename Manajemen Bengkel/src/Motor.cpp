@@ -4,7 +4,6 @@
 #include "../include/Kendaraan.h"
 using namespace std;
 
-//Metode
-void Motor::inputTipeMotor() {
-	inputTipe("Motor");
+Motor::Motor() {
+	tipe = "Motor";
 }
