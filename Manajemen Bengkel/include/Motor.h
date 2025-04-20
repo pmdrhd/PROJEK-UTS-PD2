@@ -8,13 +8,7 @@ using namespace std;
 
 class Motor : public Kendaraan {
 public:
-
-	//Metode
-	void inputTipeMotor(void);
-
-	Motor() {
-		inputTipeMotor();
-	}
+	Motor();
 };
 
 #endif
