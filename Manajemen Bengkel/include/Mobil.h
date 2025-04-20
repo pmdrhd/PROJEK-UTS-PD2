@@ -6,15 +6,9 @@
 #include "Kendaraan.h"
 using namespace std;
 
-class Mobil : public Kendaraan{
+class Mobil : public Kendaraan {
 public:
-
-	//Metode
-	void inputTipeMobil(void);
-
-	Mobil() {
-		inputTipeMobil();
-	}
+	Mobil();
 };
 
 #endif
