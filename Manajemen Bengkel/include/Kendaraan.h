@@ -3,32 +3,29 @@
 
 #include <iostream>
 #include <string>
-using namespace std;
 
-//Kelas Kendaraan
+void MenuKendaraan();
+
 class Kendaraan {
 protected:
-	//Atribut
-	string plat_no, status_servis, tipe;
-	int tahun;
+    std::string plat_no, tipe, status_servis;
+    int tahun;
 
 public:
-	//Metode
-	void inputPlatno(string p);
-	void inputTipe(string t);
-	void inputTahun(int t);
-	void inputDK(void);
-	void ubahStatusServis(string s);
-	void tampilkanInfo(void);
+    void inputData();
+    void writeData(Kendaraan k);
+    std::string searchData(const std::string& plat);
+    void editData(std::string& pn);
+    void showData(std::string line);
+    void deleteData(std::string& pn);
 
-	Kendaraan() {
-		inputDK();
-	}
+    void tampilkanData();
+    void ubahStatusServis(std::string& pn);
+	void cariPlatNomer();
 };
 
-//Library kelas turunan
-#include "Mobil.h";
-#include "Motor.h";
-#include "Truk.h";
+#include "Mobil.h"
+#include "Motor.h"
+#include "Truk.h"
 
 #endif
